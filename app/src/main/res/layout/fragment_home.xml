@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="micheal.cob.depressionapp.HomeActivityFragment"
+    tools:showIn="@layout/activity_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="2"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:id="@+id/take_test"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_assessment"
+                android:soundEffectsEnabled="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                android:textColor="#FFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_info"
+                android:soundEffectsEnabled="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info"
+                android:textColor="#FFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/people_think_depression_is_sadness_crying_or_dressing_in_black_but_people_are_wrong_depression_is_the_constant_feeling_of_being_numb_you_wake_up_in_the_morning_just_to_go_back_to_bed_again"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="16sp"
+        android:padding="16dp"
+        />
+
+</RelativeLayout>

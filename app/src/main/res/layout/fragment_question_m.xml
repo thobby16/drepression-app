@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.QuestionMFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question M"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <!--
+        1.I make decisions about as well as ever
+2. I am less sure of myself now and try to put off making decisions
+3. I can’t make decisions anymore without help
+4. I can’t make decisions at all any more
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_m1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_make_decisions_about_as_well_as_ever"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_m2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_am_less_sure_of_myself_now_and_try_to_put_off_making_decisions"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_m3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_can_t_make_decisions_anymore_without_help"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_m4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_can_t_make_decisions_at_all_any_more"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/next_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/boder"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_arrow"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.QuestionUFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question U"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <!--
+        1.I make decisions about as well as ever
+2. I am less sure of myself now and try to put off making decisions
+3. I can’t make decisions anymore without help
+4. I can’t make decisions at all any more
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_u1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I have not noticed any resent changes in my interest in sex"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_u2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I am less interested in sex than I used to be"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_u3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I am much less interested in sex now"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_u4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I have lost interest in sex completely"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="@drawable/boder"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_arrow"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.QuestionKFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question K"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <!--
+        1. I am no more irritated now than I ever am
+2. I get annoyed or irritated now more easily than I used to
+3. I feel irritated all the time
+4. I don’t get irritated at all at the things that used to irritate me
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_k1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_am_no_more_irritated_now_than_i_ever_am"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_k2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_get_annoyed_or_irritated_now_more_easily_than_i_used_to"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_k3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_feel_irritated_all_the_time"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_k4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="@string/i_don_t_get_irritated_at_all_at_the_things_that_used_to_irritate_me"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/next_k"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/boder"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_arrow"/>
+    </RelativeLayout>
+
+</LinearLayout>

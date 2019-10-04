@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.QuestionIFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question I"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <!--1. I don’t feel I am any worse than anybody else
+2. I am very critical of myself for my weakness or mistakes
+3. I blame myself for everything that goes wrong
+4. I feel I have many bad faults-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_i1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I don’t feel I am any worse than anybody else"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_i2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I am very critical of myself for my weakness or mistakes"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_i3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I blame myself for everything that goes wrong"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/option_i4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:padding="10dp"
+            android:text="I feel I have many bad faults"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/next_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/boder"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_arrow"/>
+    </RelativeLayout>
+
+</LinearLayout>

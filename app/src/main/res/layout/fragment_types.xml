@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.TypesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:background="#ecde">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Seasonal affective disorder"
+                />
+
+            <TextView
+                android:id="@+id/type1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.webmd.com/mental-health/tc/seasonal-affective-disorder-sad-topic-overview"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:background="#ecde">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Chronic depression"
+                />
+
+            <TextView
+                android:id="@+id/type2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.webmd.com/depression/guide/chronic-depression-dysthymia"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:background="#ecde">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Bipolar-disorder"
+                />
+
+            <TextView
+                android:id="@+id/type3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.nimh.nih.gov/health/topics/bipolar-disorder/index.shtml"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:background="#ecde">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Postpartum disorder"
+                />
+
+            <TextView
+                android:id="@+id/type4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.mayoclinic.org/diseases-conditions/postpartum-depression/basics/definition/con-20029130"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:background="#ecde">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Atypical depression"
+                />
+
+            <TextView
+                android:id="@+id/type5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.webmd.com/depression/guide/atypical-depression"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

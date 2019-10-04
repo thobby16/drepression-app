@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="micheal.cob.depressionapp.fragment.ResultFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        <FrameLayout
+            android:id="@+id/frame_la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_la"
+            android:text="Your Test Result is "
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/textView"
+            android:textSize="30sp"
+            android:text="20"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:id="@+id/score"/>
+        <TextView
+            android:id="@+id/ovee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:layout_below="@id/score"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the user has tendency to depressed everydthe user has tendency to depressed everydayaythe user has tendency to depressed everyday"
+            android:layout_below="@id/ovee"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/transit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boder"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Take another test or Return to home page"/>
+    
+</RelativeLayout>
